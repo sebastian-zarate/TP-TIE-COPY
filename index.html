@@ -383,7 +383,7 @@ let filtrados = [];
 // 🔥 CARGAR EQUIPOS DESDE TU BACKEND
 async function cargarEquipos() {
   try {
-    const res = await fetch("http://localhost:3000/api/equipos");
+    const res = await fetch("/api/equipos");
     equipos = await res.json();
     filtrados = [...equipos];
     renderEquipos();
