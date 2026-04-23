@@ -4,7 +4,7 @@
 ## NUESTRA API
 - localhost:3000/api/equipo/{equipo_id}
 ### Ejemplo de funcionamiento de la api
-### 📄 Ejemplo de Respuesta
+### Ejemplo de Respuesta
 
 Al hacer una petición a `localhost:3000/api/equipo/135179` (Vélez Sarsfield), la API devuelve un JSON estructurado de la siguiente manera:
 
